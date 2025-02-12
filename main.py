@@ -1,10 +1,11 @@
-import sys
-sys.path.insert(0, '..')
+# import sys
+# sys.path.insert(0, '..')
 
 from algorithms.two_sum import two_sum
 from algorithms.best_time_to_buy_and_sell_stock import max_profit
 from algorithms.recursive_factorial import factorial
 from algorithms.recursive_find_directories import find_directories
+from algorithms.recursive_array_sum import sum
 
 # print(two_sum([2,7,11,15], 9))
 # print(two_sum([3,2,4], 6))
@@ -19,3 +20,5 @@ from algorithms.recursive_find_directories import find_directories
 
 
 # print(find_directories("C:\\Users\\user\\Desktop"))
+
+# print(sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
