@@ -8,6 +8,7 @@ from algorithms.recursive_find_directories import find_directories
 from algorithms.recursive_array_sum import sum
 from algorithms.recursive_staircase import number_of_paths
 from algorithms.recursive_anagram_generator import anagrams_of
+from algorithms.recursive_fibonacci_with_memoization import fibonacci
 
 # print(two_sum([2,7,11,15], 9))
 # print(two_sum([3,2,4], 6))
@@ -31,3 +32,6 @@ from algorithms.recursive_anagram_generator import anagrams_of
 
 # print(anagrams_of("abc")) #['abc', 'bac', 'bca', 'acb', 'cab', 'cba']
 # print(anagrams_of("abcd"))
+
+
+print(fibonacci(10))
